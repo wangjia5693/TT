@@ -17,5 +17,5 @@ mix.js('resources/assets/js/app.js', 'public/js')
 
 mix.js('Modules/Systerm/resources/assets/js/app.js', 'public/system/js/app.js')
     .sass('Modules/Systerm/resources/assets/sass/app.scss', 'public/system/css/app.css')
-    // .browserSync({'proxy':'admin.sunshine.app'})
+    .browserSync({'proxy':'admin.sunshine.app'})
 ;
