@@ -25,7 +25,7 @@
                     :model='data'
                     :rules="rule_data"
                     ref='data'>
-                    <div class="title">系统登录</div>
+                    <div class="title">后台系统登录</div>
                     <el-form-item
                         prop='username'>
                         <el-input type="text" auto-complete="off" placeholder="账号" 
